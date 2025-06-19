@@ -271,17 +271,11 @@ footer img {
 
 }
 
-@media(max-width:768px) {
-
-    .boxes {
-        flex-direction: column;
-    }
-}
 
 @media (max-width: 768px) {
 
     nav {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         padding: 10px;
     }
