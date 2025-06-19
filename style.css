@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "poppins";
+}
+
+.logo img {
+    height: 90px;
+    width: 10vw;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.right li {
+    cursor: pointer;
+    color: black;
+    margin-right: 20px;
+}
+
+.container img {
+    position: relative;
+    height: 90vh;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+button {
+    background: rgb(245, 164, 15);
+    border-radius: 5px;
+    height: 40px;
+    width: 10vw;
+    justify-self: center;
+    margin-left: 30%;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+button:hover {
+    border: 2px;
+}
+
+.boxes img {
+    height: 30vh;
+    width: 15vw;
+    align-items: left;
+    padding: 0;
+    margin: 10px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box3,
+.box4,
+.box5 {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding-left: 30px;
+    margin: 20px;
+    max-width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    transition: transform 0.2s ease;
+    width: 18vw;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.box3:hover,
+.box4:hover,
+.box5:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.box3 p,
+.box4 p,
+.box5 p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.box3 img,
+.box4 img,
+.box5 img {
+    vertical-align: middle;
+    margin-right: 6px;
+    position: relative;
+}
+
+.boxes button {
+    margin-left: 20%;
+}
+
+.boxes p {
+    margin-left: 0;
+}
+
+h1 {
+    font-style: sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: rgb(214, 3, 3);
+    padding-bottom: 0px;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* h3 img { */
+.box3 h3 img {
+    width: 20px;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.box4 h3 img {
+    width: 20px;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.box5 h3 img {
+    width: 20px;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+div#spicy-content.content {
+    height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+div#Chaats-content.content {
+    height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+div#CheesySnacks-content.content {
+    height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+div#QuickMunchies-content.content {
+    height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+div#HealthySnacks-content.content{
+    height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+div#Desserts-content.content{
+    height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+div#SipsandShake-content.content{
+    height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+div#Combos-content.content{
+    height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+h4{
+    text-align: center;
+    color: rgb(226, 223, 223);
+}
+.footer-thanks p{
+    color: rgb(206, 199, 199);
+}
+.footer-thanks{
+    background: #805654;
+    padding: 20px;
+    margin-bottom: 10px;
+  		
+}
+footer {
+    background-color: 	#4A2C2A;
+    color: rgb(206, 199, 199);
+}
+
+footer img {
+    justify-content: center;
+    height: 80px;
+    padding-left: 47vw;
+    padding-top: 20px;
+
+}
+
+@media(max-width:768px) {
+
+    .boxes {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .right ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 40vw;
+        margin-bottom: 10px;
+    }
+
+    .container img {
+        width: 100vw;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .text-overlay {
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 22px;
+        padding-left: 10px;
+    }
+
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box3,
+    .box4,
+    .box5 {
+        width: 90vw;
+        height: auto;
+        padding: 20px;
+        margin: 10px 0;
+    }
+
+    .boxes img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .boxes button {
+        width: 60vw;
+        margin-left: 15%;
+    }
+
+    button {
+        font-size: 14px;
+        width: 60vw;
+    }
+
+    footer img {
+        padding-left: 35vw;
+    }
+
+    .footer-thanks h4,
+    .footer-thanks p {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+}
